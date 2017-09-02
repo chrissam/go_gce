@@ -59,7 +59,7 @@ Replace *localhost* with the corresponding Domain name or IP
 ####  **POST**
 
     curl -X POST -F 'username=test' -F 'password=password123' http://localhost:3000/v1/instances/create
-Replace *localhost* with the corresponding Domain name or IP
+Replace *localhost* with the corresponding Domain name or IP. The IP address of the instance will be sent as response if the instance is created successfully
 
 
 
